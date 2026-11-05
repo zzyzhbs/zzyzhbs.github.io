@@ -25,6 +25,10 @@ I am a master's student in Computer Science and Engineering at UC San Diego (Cla
 
 A small rover drifts when it executes motion primitives open-loop, so after every primitive it stops, observes AprilTag landmarks, updates an SE(2) extended Kalman filter with chi-square gating, and replans. A fine spin-calibration level cut the smallest executable turn from about 24° to 3.05° (CCW) and 4.55° (CW). Across 24 archived runs, the best run ended with estimated residuals of 3.1, 3.3 and 5.1 cm at the three waypoints (filter estimates, no external ground truth).
 
+**Current progress:** The navigation logic does not depend on ROS and passes 93 offline test cases, including runs against a simulated rover with systematic error. The 24 runs logged 184 landmark observations, and the 42 rejected ones were recorded with their reasons.
+
+**Next:** The project is ongoing. The next three stages are Kalman-filter SLAM mapping (estimating the landmark map and the trajectory from an unknown start pose), path planning, and system integration.
+
 <span class="links"><a href="https://github.com/zzyzhbs/apriltag-waypoint-navigation" target="_blank" rel="noopener">Code on GitHub</a> · <a href="https://www.youtube.com/shorts/DX3TtBoyumA" target="_blank" rel="noopener">Video</a></span>
 
 </div></div>
@@ -90,4 +94,4 @@ Email is the best way to reach me: [s7yuan@ucsd.edu](mailto:s7yuan@ucsd.edu). Co
 
 # 中文摘要
 
-袁盛琪，UCSD 计算机科学与工程硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证）；边缘端 Transformer 推理调度（最优静态配置 Fix(18,2,2,2) 的平均推理时间比动态规划调度方案高 18.39%；受托主笔青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。[中文简历（PDF）](pdf/Shengqi_Yuan_Resume_ZH.pdf)
+袁盛琪，UCSD 计算机科学与工程硕士在读（2027 届），本科武汉大学。方向：机器人软件、实验室自动化、智能体系统。做过：Rubik Pi 小车 AprilTag 闭环航点导航（方案设计、标定、实车验证；项目仍在推进中，后续三个阶段依次为卡尔曼滤波 SLAM 建图、路径规划与系统集成）；边缘端 Transformer 推理调度（最优静态配置 Fix(18,2,2,2) 的平均推理时间比动态规划调度方案高 18.39%；受托主笔青年科学基金申请书）；Mustango 乐理探测（和弦 0.88，随机 0.25）；GWAS 流水线（PLINK 对 GCTA）。[中文简历（PDF）](pdf/Shengqi_Yuan_Resume_ZH.pdf)
