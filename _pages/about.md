@@ -53,14 +53,14 @@ Does a latent-diffusion music generator encode music theory in its intermediate 
 
 </div></div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><a href="images/projects/gwas_qq.png" target="_blank" rel="noopener"><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"></a><p class="caption">Q-Q plot of observed against expected p-values for both methods on 118,836 variants, from the repository's results/plots.</p></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><a href="images/projects/gwas_qq.png" target="_blank" rel="noopener"><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"></a><p class="caption">Q-Q plot of observed against expected p-values for both methods, from the repository's results/plots.</p></div></div>
 <div class="paper-box-text" markdown="1">
 
 **A reproducible GWAS pipeline: linear regression versus linear mixed model**
 
-<span class="meta">UC San Diego, Jan – Mar 2026. Team of 3; main contributor.</span>
+<span class="meta">UC San Diego, Jan – Mar 2026. Team of 3; independent technical support.</span>
 
-Population structure inflates association statistics, so this pipeline takes 1000 Genomes CHB chromosome 22 (118,836 variants and 103 samples after QC), simulates a trait from 20 causal variants (seed 42), and runs PLINK linear regression against a GCTA linear mixed model, reporting λGC with Manhattan and Q-Q plots. An interactive driver checks the environment, runs the five steps in order, and retries or skips a failed step. Both methods gave λGC close to 1, a small change on a cohort that was already well mixed, so the run is a check of the pipeline rather than a demonstration of the mixed model's advantage.
+Population structure inflates association statistics, so this pipeline takes 1000 Genomes CHB chromosome 22, simulates a trait from 20 causal variants (seed 42), and runs PLINK linear regression against a GCTA linear mixed model, reporting λGC with Manhattan and Q-Q plots. An interactive driver checks the environment, runs the five steps in order, and retries or skips a failed step. Both methods gave λGC close to 1, a small change on a cohort that was already well mixed, so the run is a check of the pipeline rather than a demonstration of the mixed model's advantage.
 
 <span class="links"><a href="https://github.com/zzyzhbs/gwas-lmm-comparison" target="_blank" rel="noopener">Code on GitHub</a></span>
 
