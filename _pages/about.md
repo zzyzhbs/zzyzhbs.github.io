@@ -53,7 +53,7 @@ Does a latent-diffusion music generator encode music theory in its intermediate 
 
 </div></div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><a href="images/projects/gwas_qq.png" target="_blank" rel="noopener"><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"></a><p class="caption">Q-Q plot of observed against expected p-values for both methods, from the repository's results/plots.</p></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">PLINK, GCTA, 2026</div><a href="images/projects/gwas_qq.png" target="_blank" rel="noopener"><img src="images/projects/gwas_qq.png" alt="Q-Q plot of observed against expected p-values for linear regression and the linear mixed model" width="100%"></a><p class="caption">Q-Q plot of observed against expected p-values for both methods on 118,836 variants, from the repository's results/plots.</p></div></div>
 <div class="paper-box-text" markdown="1">
 
 **A reproducible GWAS pipeline: linear regression versus linear mixed model**
